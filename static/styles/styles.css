@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Белый фон */
+    color: #000000; /* Чёрный текст */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Небольшие отступы по краям страницы */
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center; /* Центрирование всех элементов внутри контейнера */
+}
+
+h1, h2, h3 {
+    color: #3fa34d; /* Светло-зелёный для заголовков */
+    margin-top: 20px; /* Отступ сверху заголовка */
+    margin-bottom: 40px; /* Отступ снизу заголовка */
+    margin-right: 40px; /* Отступ справа заголовка */
+    text-align: center; /* Центрирование заголовка */
+}
+
+p, label, a {
+    color: #000000; /* Чёрный основной текст */
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+form {
+    background: #ffffff; /* Белый фон формы */
+    padding: 20px;
+    margin-bottom: 40px; /* Отступ снизу формы */
+    border: 2px solid #3fa34d; /* Светло-зелёная граница */
+    border-radius: 8px;
+    text-align: right;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Лёгкая тень для формы */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: right;
+    font-size: 14px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff; /* Белый фон селектора */
+    color: #000000; /* Чёрный цвет текста */
+    text-align: right;
+    cursor: pointer;
+}
+
+/* Стили для опций селектора */
+option {
+    padding: 10px;
+    background-color: #ffffff; /* Белый фон пунктов */
+    color: #000000; /* Чёрный текст пунктов */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #3fa34d; /* Светло-зелёная кнопка */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2e7c39; /* Более тёмный зелёный при наведении */
+}
+
+a {
+    color: #3fa34d; /* Светло-зелёные ссылки */
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center; /* Центрирование ссылок */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    background-color: #e74c3c; /* Красный для ошибок */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
